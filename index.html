@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1.8.9 Blue PvP Tpack</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0c0f14;
+      color: #e5f3ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #003366, #001a33);
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #66ccff;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+      line-height: 1.6;
+    }
+    .features {
+      background-color: #0a0f1a;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🔷";
+      margin-right: 8px;
+    }
+    .download {
+      text-align: center;
+      padding: 2rem;
+    }
+    .btn {
+      background-color: #66ccff;
+      color: black;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #33aaff;
+    }
+    #status {
+      margin-top: 1rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>1.8.9 Blue PvP Tpack</h1>
+    <p>Enjoy a clean blue aesthetic, smooth FPS, and clear PvP visuals. Made for Minecraft 1.8.9 warriors who want both looks and performance.</p>
+  </header>
+
+  <section class="features">
+    <h2>🔹 Features</h2>
+    <ul>
+      <li>Blue-themed GUI & textures</li>
+      <li>Short swords for better vision</li>
+      <li>Low fire + clear particles</li>
+      <li>FPS-optimized for smooth PvP</li>
+      <li>Perfect for Bedwars, Skywars & UHC</li>
+    </ul>
+  </section>
+
+  <div class="download">
+    <button class="btn" onclick="startCooldown()">Download Pack</button>
+    <div id="status"></div>
+  </div>
+
+  <footer>
+    © 2025 rbxrush2 | Blue visuals. Real PvP. 💙
+  </footer>
+
+  <script>
+    function startCooldown() {
+      let seconds = 3;
+      const status = document.getElementById('status');
+      status.innerText = `Redirecting in ${seconds}...`;
+
+      const countdown = setInterval(() => {
+        seconds--;
+        if (seconds > 0) {
+          status.innerText = `Redirecting in ${seconds}...`;
+        } else {
+          clearInterval(countdown);
+          status.innerText = 'Redirecting...';
+          window.location.href = "http://adfoc.us/872640110956462";
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>
